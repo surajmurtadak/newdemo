@@ -1,0 +1,62 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 1em;
+  width: 30em;
+  margin: 10rem;
+}
+form {
+  width: 300px;
+}
+input {
+  width: 300px;
+  height: 25px;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid gray;
+  background-color: transparent;
+  color: gray;
+}
+input:focus {
+  border: 1px solid #7cb0ff;
+  outline: none;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+.first {
+  border-bottom: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.third {
+  border-top: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+button {
+  width: 310px;
+  height: 40px;
+  margin-top: 7px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  background-color: #7cb0ff;
+}
+body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.664);
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+}

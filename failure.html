@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Success Page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Raleway", sans-serif;
+      }
+      .dark {
+        width: 100%;
+        /* height: 70%; */
+        background-color: rgb(51, 51, 51);
+        background-size: cover;
+        color: aliceblue;
+        padding: 3% 3% 13% 3%;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      button {
+        width: 12%;
+        height: 40px;
+        border-radius: 8px;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dark">
+      <h1>Failure, Unable to Subscribe</h1>
+      <p>Something Went wrong, Please try Again.</p>
+      <form action="/fail" method="post">
+        <button type="submit">Try Again</button>
+      </form>
+    </div>
+  </body>
+</html>
